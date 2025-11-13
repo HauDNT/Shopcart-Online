@@ -7,7 +7,7 @@ import MobileMenu from "@/components/MobileMenu"
 import SearchBar from "@/components/SearchBar"
 import SignIn from "@/components/SignIn"
 
-const Header = () => {
+const Header = async () => {
   return (
     <header className="bg-white py-5 border-b border-b-black/20">
       <Container className="flex items-center justify-between text-lightColor">
